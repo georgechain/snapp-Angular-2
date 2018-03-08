@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./build",
+        "newLine": "LF",
+        "removeComments": true,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [ "es2015", "dom" ],
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": false,
+
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+
+    "include": [
+        "./src/client/**/*"
+    ],
+
+    "exclude": [
+        "./node_modules"
+    ]
+}

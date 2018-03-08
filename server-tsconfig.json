@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./build/snapp",
+        "newLine": "LF",
+        "removeComments": false,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [ "es2016", "dom" ],
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+
+    "files": [
+        "./typings/index.d.ts"
+    ],
+
+    "include": [
+        "./src/server/**/*"
+    ],
+
+    "exclude": [
+        "./node_modules"
+    ]
+}
